@@ -3,7 +3,9 @@
 How to use?
 Download this script and give him chmod a+x then you can use from your terminal.
 
-./clean [path]
+chmod a+x ~/Desktop/clean.sh
+
+./clean.sh [path]
 
 
-./clean /Volumes/Windows/ 
+./clean.sh /Volumes/Windows/ 
