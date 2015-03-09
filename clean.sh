@@ -12,7 +12,7 @@ then
 	read d
 	
 	case "$d" in
-		"y") sudo find $1 \( -name '.DS_Store' -or -name '.Trashes' -or -name '.fseventsd' -or -name '._.DS_Store' -or -name '.TemporaryItems' -or -name '.apdisk' -or -name '._*' \) -exec rm -rf {} \; ;; 
+		"y") sudo find $1 \( -name '.DS_Store' -or -name '.Trashes' -or -name '.fseventsd' -or -name '.TemporaryItems' -or -name '.apdisk' -or -name '._*' \) -exec rm -rf {} \; ;; 
 		"n") exit ;;
 		*) echo "Nothing chosen..."
 	esac
